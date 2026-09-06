@@ -1,0 +1,452 @@
+/* ==========================
+           LARGE DESKTOP
+        ========================== */
+
+@media (min-width: 1600px) {
+  .hero-banner {
+    background-size: cover;
+    background-position: center center;
+  }
+
+.traditional-collection-boxes {
+    grid-template-rows: repeat(3, 422px);
+    gap: 51px;
+    row-gap: 50px;
+}
+
+/* .cotton-sarees {
+    min-height: 817px;
+    background-size: cover;
+
+} */
+.timeless-elegance-boxes {
+    grid-template-rows: repeat(3, 919px);
+
+}
+.about-us .container {
+    margin: auto;
+    max-width: 95%;
+}
+.wedding-season {
+    aspect-ratio: 2047 / 829;
+}
+/* .kanchipuram {
+    aspect-ratio: 2047 / 782;
+} */
+/* .cotton-sarees {
+ 
+    aspect-ratio: 2047 / 829;
+} */
+}
+
+
+/* 
+@media screen and (min-device-width: 1366px) and (max-device-width: 1500px) { 
+
+
+.wedding-season {
+    aspect-ratio: 2047 / 829;
+}
+.kanchipuram {
+    aspect-ratio: 2047 / 782;
+}
+.cotton-sarees {
+ 
+    aspect-ratio: 2047 / 829;
+}
+
+} */
+
+@media (min-width: 992px) {
+.mobile-menu,.togller{
+  display: none;
+}
+
+}
+
+
+/* ==========================
+           LAPTOP
+        ========================== */
+
+@media (max-width: 1399px) {
+  .hero-banner {
+    background-position: center center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wedding-season,
+  .kanchipuram {
+    background-size: contain;
+  }
+
+}
+
+/* ==========================
+           TABLET
+        ========================== */
+
+@media (max-width: 991px) {
+  .hero-banner {
+    aspect-ratio: 2047 / 829;
+    background-position: center center;
+  }
+  .category .content_area .box {
+    text-align: center;
+     margin-bottom: 19px;
+  }
+  .category .content_area .box .box-text {
+    margin-top: 3%;
+}
+  .wedding-season,
+  .kanchipuram {
+    background-size: contain;
+  }
+  .wedding-season {
+    min-height: 442px;
+}
+.kanchipuram {
+    min-height: 385px;
+}
+.traditional-collection-boxes {
+    row-gap: 0px;
+        grid-template-rows: repeat(3, 175px);
+}
+.crafted-traditions-box .text {
+    white-space: nowrap;
+}
+
+.description p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.description span.new-price {
+    font-size: 12px;
+}
+.description .old-price {
+    font-size: 11px;
+}
+.timeless-elegance-boxes {
+    grid-template-rows: repeat(3, 390px);
+    row-gap: 0;
+}
+section.about-us .right-content p {
+    font-size: 14px;
+   
+}
+.about-us {
+    margin-top: 5%;
+}
+section.about-us .right-content {
+    padding-left: 0;
+}
+.section-btn.flex-btn {
+    display: flex;
+    gap: 42px;
+    margin-top: 3%;
+}
+.seciton-title {
+    font-size: 22px;
+}
+.timeless-elegance .section-btn {
+    margin-top: 2%;
+}
+.footer-logo_area .col-lg-4 {
+    display: none;
+}
+.header-menu .left,.header-menu .right  {
+    display: none;
+}
+.header-logo a {
+    width: 22%;
+    display: block;
+}
+.header-logo{
+  position: relative;
+}
+.togller {
+        position: fixed;
+        right: 28px;
+        top:57px;
+        font-size: 32px;
+        z-index: 99;
+        cursor: pointer;
+}
+.mobile-menu {
+    position: fixed;
+    background: #000;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    height: 100%;
+    padding-top: 10%;
+    top: 0;
+    display: none;
+}
+.mobile-menu.active {
+    display: block;
+}
+body.active .togller {
+    color: #fff;
+}
+.mobile-menu ul li{
+    margin-bottom:30px
+}
+.mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size:19px
+}
+.mobile-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+}
+
+/* ==========================
+           MOBILE
+        ========================== */
+
+@media (max-width: 767px) {
+
+  .category .content_area .box {
+    text-align: center;
+  }
+  .category .content_area .box .box-text {
+    margin-top: 3%;
+    margin-bottom: 9%;
+  }
+  .wedding-season,
+  .kanchipuram {
+    min-height: 343px;
+  }
+  .margin-top {
+    margin-top: 1%;
+}
+  .title {
+    padding: 35px 0;
+  }
+  .traditional-collection-boxes {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 392px);
+    gap: 28px;
+    row-gap: 8px;
+}
+.timeless-elegance-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 382px);
+    column-gap: 20px;
+ 
+}
+    section.about-us .right-content {
+        margin-top: 8%;
+    }
+    section.faq .image {
+    padding: 1% 9% 7% 4%;
+}
+section.faq .right-content {
+    padding-top: 1%;
+}
+.accord-frame {
+    border-radius: 10px;
+    padding-left:0;
+    padding-right:0;
+    margin-top: 50px;
+}
+.social-icons ul {
+    justify-content: center;
+}
+.copyright .row p {
+    text-align: center;
+}
+.top-header {
+    display: none;
+}
+    .togller {
+        top: 20px;
+    }
+    .footer-logo {
+    width: 30%;
+            margin: auto;
+}
+footer.footer:before {
+    z-index: -1;
+}
+footer.footer .container__item {
+    width: 100%;
+}
+footer.footer form.form {
+    padding: 2.4% 4% 2.4% 8%;
+}
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    /* aspect-ratio: 1 / 1.35;
+
+    background-size: auto 100%;
+    background-position: center center; */
+  }
+    .togller {
+        position: fixed;
+        right: 28px;
+        top: 57px;
+        font-size: 26px;
+        z-index: 99;
+        cursor: pointer;
+    }
+  .category .content_area .box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+      .togller {
+        top: 10px;
+     
+    }
+  .category .content_area .box .box-text {
+    margin-top: -2%;
+    margin-bottom: 5%;
+  }
+  .title {
+    padding: 35px 0;
+  }
+  .seciton-title::after {
+    top: 62px;
+  }
+  .seciton-title::before {
+    top: -64%;
+  }
+      .wedding-season, .kanchipuram {
+               min-height: 190px;
+    }
+        .traditional-collection-boxes {
+        grid-template-rows: repeat(2, 200px);
+
+    }
+  
+        .timeless-elegance-boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 318px);
+        column-gap: 20px;
+    }
+        .description p {
+        font-size: 12px;
+    }
+        .description .old-price {
+        font-size: 10px;
+    }
+    .description span.new-price {
+        font-size: 11px;
+    }
+    .seciton-title {
+        font-size: 19px;
+    }
+        .seciton-title::after {
+        top: 32px;
+    }
+        .seciton-title::before {
+        top: -132%;
+    }
+    .category .content_area {
+    margin-top: 2%;
+}
+.accord-frame ul li label {
+    font-size: 15px;
+}
+.accord-frame ul li p {
+    font-size: 12px;
+}
+.accord-frame ul li label:before {
+    width: 30.42px;
+    height: 30.42px;
+  
+}
+.accord-frame ul li label:after {
+    right: 14px;
+    top: 11px;
+}
+footer.footer input.form__field {
+    width: 84%;
+}
+footer.footer .stay-cont p {
+    font-size: 14px;
+    text-align: center;
+}
+footer.footer .stay-cont p {
+    width: 100%;
+}
+footer.footer .stay-cont h5 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.row-cols-5>* {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 17px;
+}
+.divider {
+    margin: 33px 0 47px 0;
+}
+.section-btn a {
+    width: 149px;
+    height: 37px;
+   
+}
+}
+
+
+
+@media (max-width: 375px) { 
+    .title {
+        padding: 23px 0;
+    }
+.seciton-title::before {
+        top: -150%;
+    }
+        .seciton-title::after {
+        top: 45px;
+    }
+        .seciton-title {
+        font-size: 17px;
+    }
+        .seciton-title::after {
+        top: 30px;
+    }
+        .hero-banner {
+        margin-bottom: 19px;
+    }
+    .category .content_area .box .box-text {
+    font-size: 16px;
+}
+    .category .content_area .box .box-text {
+        margin-top: -3%;
+        margin-bottom: 3%;
+    }
+        .description p {
+        font-size: 10px;
+    }
+        .description span.new-price {
+        font-size: 10px;
+    }
+        .timeless-elegance-boxes {
+        grid-template-rows: repeat(6, 283px);
+  
+    }
+    .category .seciton-title::before {
+    content: "Shop by Category";
+            top: -153%;
+}
+    .seciton-title::after {
+        top: 37px;
+    }
+}
