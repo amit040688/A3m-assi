@@ -403,7 +403,15 @@ footer.footer .stay-cont h5 {
    
 }
 }
-
+@media (max-width: 410px) {
+        .category .seciton-title::before {
+    content: "Shop by Category";
+                 top: -84%;
+}
+    .seciton-title::after {
+        top: 37px;
+    }
+}
 
 
 @media (max-width: 375px) { 
