@@ -12,6 +12,13 @@ $(document).ready(function() {
     });
 
 
-
-   
+    $(window).scroll(function(){
+        // sticky navbar on scroll script
+        if(this.scrollY > 20){
+            $('.header-menu').addClass("sticky");
+        }else{
+            $('.header-menu').removeClass("sticky");
+        }
+        
+       });
 });

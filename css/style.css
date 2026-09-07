@@ -503,6 +503,7 @@ p {
 }
 .accord-frame ul li input:checked ~ label:before {
        background: #986423;
+           background: linear-gradient(359deg, #986423, #98642352);
        
 }
 .accord-frame ul li input:checked ~ p {
